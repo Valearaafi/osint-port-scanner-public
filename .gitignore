@@ -1,0 +1,26 @@
+# Data lokal yang berisi informasi sensitif (termasuk API key)
+config.json
+scans.db*
+
+# Hasil ekspor pengguna (dapat memuat target/data pribadi)
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Distribusi
+build/
+dist/
+*.egg-info/
+
+# Log dan cache
+*.log
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

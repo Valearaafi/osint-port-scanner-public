@@ -1,0 +1,5 @@
+# OSINT Port Scanner — dependency
+#
+# Python 3.12. Tahap 1 menambahkan dnspython untuk pemeriksaan record DNS
+# (NS, MX, AAAA) yang tidak tersedia di standard library.
+dnspython>=2.6,<3

@@ -1,0 +1,4 @@
+# Dependensi build Windows (PyInstaller) — diinstal hanya di venv build,
+# bukan secara global. Dependensi runtime (dnspython) dipasang terpisah
+# dari requirements.txt proyek.
+pyinstaller>=6.0,<7
